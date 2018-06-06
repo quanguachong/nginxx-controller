@@ -6,7 +6,7 @@ do the similar job as deployment which backuped by kubernetes.
 2.  the pods have a persistentVolume, if pods crash, the operator can recreate them
 and bind them to the persistentVolume.
 
-##before running
+## before running
 
 the operator binda the pod to a persistentVolume with the help of pvc
 you should create the persistentVolume by the commond:
